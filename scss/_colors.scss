@@ -1,4 +1,4 @@
 $color-background : #C2DFE3;;
 $color-highlight  : #F9C943;
-$color-complement : complement($color-highlight);
-$color-link       : darken(complement($color-background), 10%);
+$color-secondary  : complement($color-highlight);
+$color-comment    : #E56D4B;

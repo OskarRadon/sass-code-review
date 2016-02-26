@@ -4,20 +4,6 @@
   align-items: center;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background: $color-background;
-  font-family: $helvetica;
-  a {
-    text-decoration: none;
-    color: $color-complement;
-    &:hover {
-      color: $color-link;
-    }
-  }
-}
-
 header {
   position: fixed;
   top: 0;
@@ -25,10 +11,10 @@ header {
   height: 80px;
   @extend %flex;
   background: $color-background;
-  color: $color-complement;
+  color: $color-secondary;
   box-shadow: 0 0 10px black;
   h2 {
-    color: $color-complement;
+    color: $color-secondary;
     padding-left: $padding;
   }
   nav {
@@ -38,5 +24,18 @@ header {
       margin-left: 15px;
     }
   }
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  background: $color-background;
+  font-family: $helvetica;
+  a {
+    text-decoration: none;
+    color: $color-secondary;
+    &:hover {
+      color: $color-comment;
+    }
+  }
 }
